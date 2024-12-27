@@ -1,4 +1,11 @@
 import 'tailwindcss/tailwind.css'
+import '../styles/bootstrap.min.css'
+import '../styles/magnific-popup.css'
+import '../styles/mobrise.css'
+import '../styles/style.css'
+import '../styles/materialdesignicons.min.css'
+import '../styles/colors/default.css'
+import '../styles/blog.css'
 
 import { VisualEditing } from '@sanity/visual-editing/next-pages-router'
 import { AppProps } from 'next/app'
