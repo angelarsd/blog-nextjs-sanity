@@ -1,0 +1,112 @@
+main.margin-top {
+  margin-top: 85px;
+}
+.image-responsive {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.image-gif {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.container article.detail {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container article img {
+  max-width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.text-base,
+.text-base:hover {
+  color: #212529;
+  text-decoration: none;
+}
+.hero-post,
+.post {
+  margin-bottom: 36px;
+}
+.hero-post .container-text,
+.post .container-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 140px;
+  position: relative;
+}
+.hero-post .image-responsive,
+.post .image-responsive {
+  margin-bottom: 0 !important;
+}
+.hero-post .container-text .gradient,
+.post .container-text .gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+.hero-post .footer-post,
+.post .footer-post {
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.mdi-calendar:before {
+  content: "\F0ED";
+}
+.mdi-clock:before {
+  content: "\F150";
+}
+.mdi-whatsapp:before {
+  content: "\F5A3";
+}
+
+.typed-cursor {
+  color: #212529;
+}
+article.detail ol li,
+article.detail ul li {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+article.detail h1,
+article.detail h2,
+article.detail h3,
+article.detail h4 {
+  margin-bottom: 1rem;
+}
+figure {
+  margin: 0;
+}
+@media (min-width: 992px) {
+  .hero-post {
+    height: 375px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .hero-post .image-responsive {
+    display: block;
+    width: auto;
+    height: 375px;
+  }
+  .hero-post .container-image {
+    max-height: 100%;
+    overflow: hidden;
+  }
+  .hero-post .container-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 330px;
+  }
+}
